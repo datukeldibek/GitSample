@@ -27,9 +27,9 @@ class APIManager {
             do {
                 let newsData = try JSONDecoder().decode(NewsData.self, from: data)
                 completion(.success(newsData))
-                print("success")
+//                print("success")
             } catch {
-                print("failure")
+//                print("failure")
                 completion(.failure(error))
             }
         }
