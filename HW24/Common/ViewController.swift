@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     //MARK: - Variables
     
     private let images: [UIImage] = [
-        UIImage(named: "1")!,
+        UIImage(named: "2")!,
         UIImage(named: "2")!,
         UIImage(named: "3")!,
         UIImage(named: "4")!,
